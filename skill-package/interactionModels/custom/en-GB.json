@@ -3,16 +3,7 @@
     "languageModel": {
       "invocationName": "freccia nera smooth jazz",
       "intents": [
-        {
-          "name": "PlayRadioIntent",
-          "slots": [],
-          "samples": [
-            "start the radio",
-            "play the radio",
-            "listen to the radio",
-            "play radio"
-          ]
-        },
+        {"name":"PlayRadioIntent","slots":[],"samples":["start the radio","play the radio","listen to the radio","play radio"]},
         {"name":"AMAZON.HelpIntent","samples":[]},
         {"name":"AMAZON.CancelIntent","samples":[]},
         {"name":"AMAZON.StopIntent","samples":[]},
@@ -22,6 +13,5 @@
       ],
       "types": []
     }
-  },
-  "version": "3"
+  }
 }
