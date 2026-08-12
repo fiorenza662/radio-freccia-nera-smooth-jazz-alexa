@@ -1,9 +1,9 @@
 {
   "interactionModel": {
     "languageModel": {
-      "invocationName": "freccia nera smooth jazz",
+      "invocationName": "black arrow jazz",
       "intents": [
-        {"name":"PlayRadioIntent","slots":[],"samples":["start the radio","play the radio","listen to the radio","play radio"]},
+        {"name":"PlayRadioIntent","slots":[],"samples":["start the radio","play the radio","listen to the radio","play radio","start smooth jazz","play smooth jazz"]},
         {"name":"AMAZON.HelpIntent","samples":[]},
         {"name":"AMAZON.CancelIntent","samples":[]},
         {"name":"AMAZON.StopIntent","samples":[]},
