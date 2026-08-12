@@ -105,7 +105,7 @@ const HelpHandler = {
   },
   handle(handlerInput) {
     const msg = isItalian(handlerInput)
-      ? 'Di\': Alexa, apri Freccia Nera Smooth Jazz.'
+      ? "Di': Alexa, apri Freccia Nera Smooth Jazz."
       : 'Say: Alexa, open Black Arrow Jazz.';
     return handlerInput.responseBuilder.speak(msg).reprompt(msg).getResponse();
   }
