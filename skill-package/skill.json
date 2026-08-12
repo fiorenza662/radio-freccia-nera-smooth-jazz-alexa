@@ -9,24 +9,24 @@
         "en-GB": {
           "name": "Radio Freccia Nera Smooth Jazz",
           "summary": "Listen to Radio Freccia Nera Smooth Jazz live on Alexa.",
-          "description": "Listen to Radio Freccia Nera Smooth Jazz live on Alexa. The station starts automatically when the skill opens. To start listening, say: Alexa, open Black Arrow Jazz.",
+          "description": "Listen to Radio Freccia Nera Smooth Jazz live on Alexa. The station starts automatically when the skill opens. To listen, say: Alexa, open Black Arrow Jazz.",
           "examplePhrases": [
             "Alexa, open Black Arrow Jazz.",
             "Alexa, ask Black Arrow Jazz to start the radio.",
             "Alexa, ask Black Arrow Jazz to play the radio."
           ],
-          "keywords": ["Radio Freccia Nera", "radio", "music", "smooth jazz"]
+          "keywords": ["Radio Freccia Nera", "smooth jazz", "jazz radio", "radio", "music"]
         },
         "it-IT": {
           "name": "Radio Freccia Nera Smooth Jazz",
           "summary": "Ascolta Radio Freccia Nera Smooth Jazz in diretta su Alexa.",
-          "description": "Ascolta Radio Freccia Nera Smooth Jazz in diretta su Alexa. La stazione parte automaticamente quando apri la skill. Per iniziare, dì: Alexa, apri Freccia Nera Smooth Jazz.",
+          "description": "Ascolta Radio Freccia Nera Smooth Jazz in diretta su Alexa. La stazione parte automaticamente quando apri la skill. Per ascoltare, dì: Alexa, apri Freccia Nera Smooth Jazz.",
           "examplePhrases": [
             "Alexa, apri Freccia Nera Smooth Jazz.",
             "Alexa, chiedi a Freccia Nera Smooth Jazz di avviare la radio.",
             "Alexa, chiedi a Freccia Nera Smooth Jazz di riprodurre la radio."
           ],
-          "keywords": ["Radio Freccia Nera", "radio", "musica", "smooth jazz"]
+          "keywords": ["Radio Freccia Nera", "smooth jazz", "radio jazz", "radio", "musica"]
         }
       }
     },
