@@ -105,8 +105,8 @@ const HelpHandler = {
   },
   handle(handlerInput) {
     const msg = isItalian(handlerInput)
-      ? 'Apri questa skill per ascoltare direttamente ' + TITLE_IT + '.'
-      : 'Open this skill to listen directly to ' + TITLE_EN + '.';
+      ? 'Di\': Alexa, apri Freccia Nera Smooth Jazz.'
+      : 'Say: Alexa, open Black Arrow Jazz.';
     return handlerInput.responseBuilder.speak(msg).reprompt(msg).getResponse();
   }
 };
