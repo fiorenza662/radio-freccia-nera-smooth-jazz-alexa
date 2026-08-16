@@ -40,10 +40,10 @@ jobs:
         shell: bash
         run: |
           set -e
-          APKSIGNER="$(command -v apksigner)"
-          TOOL_DIR="$(dirname "$APKSIGNER")"
+          TOOL_DIR="$(find "$ANDROID_HOME/build-tools" -mindepth 1 -maxdepth 1 -type d | sort -V | tail -1)"
+          echo "Using build-tools: $TOOL_DIR"
           mkdir -p apksigner-tool/lib
-          cp "$APKSIGNER" apksigner-tool/apksigner
+          cp "$TOOL_DIR/apksigner" apksigner-tool/apksigner
           cp "$TOOL_DIR/lib/apksigner.jar" apksigner-tool/lib/apksigner.jar
           chmod +x apksigner-tool/apksigner
 
