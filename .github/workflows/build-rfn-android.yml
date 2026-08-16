@@ -35,3 +35,21 @@ jobs:
           name: radio-freccia-nera-android-unsigned
           path: android-app/app/build/outputs/apk/release/*.apk
           if-no-files-found: error
+
+      - name: Package Android apksigner tool
+        shell: bash
+        run: |
+          set -e
+          APKSIGNER="$(command -v apksigner)"
+          TOOL_DIR="$(dirname "$APKSIGNER")"
+          mkdir -p apksigner-tool/lib
+          cp "$APKSIGNER" apksigner-tool/apksigner
+          cp "$TOOL_DIR/lib/apksigner.jar" apksigner-tool/lib/apksigner.jar
+          chmod +x apksigner-tool/apksigner
+
+      - name: Upload apksigner tool
+        uses: actions/upload-artifact@v4
+        with:
+          name: android-apksigner-tool
+          path: apksigner-tool
+          if-no-files-found: error
