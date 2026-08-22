@@ -2,7 +2,7 @@
 
 const Alexa = require('ask-sdk-core');
 
-const STREAM_URL = "https://mira.streamerr.co/listen/radio_freccia_nera__smooth_jazz/radio.mp3";
+const STREAM_URL = "https://www.radiofreccianera.com/smooth.mp3";
 const ART_URL = "https://www.radiofreccianera.com/wp-content/themes/radio-freccia-nera-thematic-network-en-v2.2/assets/img/cards-pro/smooth-jazz.png";
 const TITLE_IT = "Radio Freccia Nera Smooth Jazz";
 const TITLE_EN = "Radio Freccia Nera Smooth Jazz";
